@@ -1,0 +1,19 @@
+AddVertex A
+AddVertex B
+AddVertex C
+AddVertex D
+AddVertex E
+AddVertex F
+AddVertex G
+AddEdge A B 1
+AddEdge A D 1
+AddEdge B C 1
+AddEdge B D 1
+AddEdge C A 1
+AddEdge C D 1
+AddEdge C E 1
+AddEdge D F 1
+AddEdge F E 1
+AddEdge F G 1
+AddEdge G E 1
+Quit
