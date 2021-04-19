@@ -6,9 +6,9 @@ This assignment is to implement and test a directed graph structure. The directe
 
 2.1 (Class) Implement a GraphType class that can hold up to 7 vertices of character type using the following specification file:
 
-#include <stack>
+#include < stack >
    
-#include <queue>
+#include < queue >
 
 
 using namespace std;
