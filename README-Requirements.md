@@ -7,32 +7,55 @@ This assignment is to implement and test a directed graph structure. The directe
 2.1 (Class) Implement a GraphType class that can hold up to 7 vertices of character type using the following specification file:
 
 #include <stack>
+   
 #include <queue>
+
 
 using namespace std;
 
+
 typedef char VertexType;
 
+
 class GraphType
+
 {
+
 public:
+
    GraphType(); // Default of 7 vertices
+   
    ~GraphType();
+   
    void AddVertex(VertexType);
+   
    void AddEdge(VertexType, VertexType, int);
+   
    void GetToVertices(VertexType, queue<VertexType>&);
+   
    void ClearMarks();
+   
    void MarkVertex(VertexType);
+   
    bool IsMarked(VertexType);
+
 private:
+   
    int numVertices;
+   
    int maxVertices;
+   
    VertexType* vertices;
+   
    int edges[7][7];
+
 bool* marks; // marks[i] is mark for vertices[i].
+
 };
 
+
 The implementation of the graph may follow the code in the textbook pages 741 to 744.
+
 
 There are important notices from the specification above:
 
